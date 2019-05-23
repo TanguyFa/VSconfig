@@ -1,0 +1,80 @@
+{   //https://code.visualstudio.com/docs/getstarted/settings
+    "files.autoSave": "onFocusChange",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.fontFamily": "Consolas, 'Verdana', monospace",
+    "editor.fontSize": 13,
+    "editor.letterSpacing": 0,
+    "editor.lineHeight": 0,
+    "editor.mouseWheelZoom": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.tabCompletion": "on",
+
+    // Overrides editor colors and font style from the currently selected color theme.
+  "editor.tokenColorCustomizations": {},
+
+//TERMINAL SETTINGS
+    //"terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+    //"terminal.integrated.shell.windows": "C:\\Developpement\\Model-Facto\\resources\\cmder_mini\\cmder.exe",
+    //"terminal.integrated.shellArgs.windows": ["/K", "C:\\Developpement\\Model-Facto\\resources\\cmder_mini\\MyScriptForVisual.bat"],
+    "terminal.integrated.shell.windows": "C:\\Developpement\\Git\\bin\\bash.exe",
+    // STYLE
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.drawBoldTextInBrightColors": true,
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#ffffff",
+        "terminal.background" : "#8582822f",
+        "sideBar.background": "#000000",
+        //"statusBar.background": "#000000",
+        //"statusBar.noFolderBackground": "#000000"
+        //"editor.foreground": "#ff0000",
+       // "titleBar.activeBackground": "#ff0000"
+    }, 
+
+//EDITORS SETTINGS
+/* "editor.fontWeight": "500",
+"editor.tokenColorCustomizations": {
+        //  "types": "#FF0000",
+        "comments": "#ff55e8ce",
+        "numbers": "#00f7ff",
+        "strings": "#ffffff",
+        "keywords": "#d9ff00",
+        "functions": "#5fbfff",
+        "variables": "#3bfd29",
+        "textMateRules": []
+}, */
+
+
+"local-history.dateLocale": "fr-FR",
+
+    
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Sublime Monokai",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.suggestSelection": "first",
+  //  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false,
+
+
+    "telemetry.enableTelemetry": false,
+}
